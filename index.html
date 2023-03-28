@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="info">
+    <div class="textcontainer">
+      <div class="logo"><img src="./images/logo.svg" alt=""></div>
+      <div class="hero"><img src="./images/hero-mobile.jpg" alt=""></div>
+      <div class="texts">
+        <h1 class="we">We're </h1><h1 class="soon">coming<br>soon</h1>
+        <p class="notice">Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      </div> 
+      <div class="mail">
+        <form name="myFor" action="" oninput="checkInput()" onsubmit="return validateEmail()">
+          <input type="text" name="email" id="email" placeholder="Email Address">  
+          <div class="alert">
+            <img src="./images/icon-error.svg" alt="" id="error">
+            <input type="image" src="./images/icon-arrow.svg" class="submit" >
+          </div>
+          <div class="warning">
+            <h4 id="filled">Email must be filled out</h4>
+            <h4 id="provide">Please provide a valid email</h4>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="avatar">
+      <img src="./images/hero-desktop.jpg" alt="">
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
+
