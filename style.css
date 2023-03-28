@@ -79,7 +79,7 @@ h1{
 #email{
     padding: 1.6em 0;
     width: 100%;
-    border: 1px solid var(--Desaturated-Red);
+    border: 1.5px solid var(--Desaturated-Red);
     border-radius: 4em;
     font-size: 1em ;
     text-indent: 6%;
