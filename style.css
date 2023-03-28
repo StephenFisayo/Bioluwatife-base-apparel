@@ -92,7 +92,7 @@ h1{
 }
 
 input[type=text]:focus{
-    outline-width: 0;
+    outline-width: 1px;
 }
 
 .submit{
