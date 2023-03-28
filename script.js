@@ -11,7 +11,7 @@
 
 
     if (d.match(validMail)){
-        document.getElementById("email").style.border = "1px solid hsl(347, 92%, 65%)";
+        document.getElementById("email").style.border = "2px solid hsl(347, 92%, 65%)";
         document.getElementById("provide").style.display = "none";
         document.getElementById("filled").style.display = "none";
         document.getElementById("error").style.display = "none";
@@ -28,7 +28,7 @@
      else {
         document.getElementById("filled").style.display = "none";
         document.getElementById("provide").style.display = "block";
-        document.getElementById("email").style.border = "1px solid red";
+        document.getElementById("email").style.border = "2px solid red";
         document.getElementById("error").style.display = "block";
          return false;
     }
@@ -39,7 +39,7 @@
     var validInput = new RegExp(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/);
 
     if(x.match(validInput)){
-        document.getElementById("email").style.border = "1px solid hsl(347, 92%, 65%)";
+        document.getElementById("email").style.border = "2px solid hsl(347, 92%, 65%)";
         document.getElementById("provide").style.display = "none";
         document.getElementById("filled").style.display = "none";
         document.getElementById("error").style.display = "none";
@@ -47,7 +47,7 @@
     else{
         document.getElementById("provide").style.display = "block";
         document.getElementById("filled").style.display = "none";
-        document.getElementById("email").style.border = "1px solid red";
+        document.getElementById("email").style.border = "2px solid red";
         document.getElementById("error").style.display = "block";
          return false;
     }
